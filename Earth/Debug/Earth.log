@@ -1,0 +1,17 @@
+﻿Build started 2016/11/9 16:46:11.
+     1>Project "D:\programs\C#\Earth\Earth\Earth.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Earth.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Earth.vcxproj -> D:\programs\C#\Earth\Debug\Earth.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Earth.unsuccessfulbuild".
+         Touching "Debug\Earth.lastbuildstate".
+     1>Done Building Project "D:\programs\C#\Earth\Earth\Earth.vcxproj" (build target(s)).
+
+生成成功。
+
+Time Elapsed 00:00:00.24
