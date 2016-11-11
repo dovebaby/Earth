@@ -5,3 +5,5 @@ ipch/*
 *.suo
 *.vcxproj
 *.vcxproj.user
+*.sln
+*.filters
