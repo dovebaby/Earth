@@ -21,9 +21,6 @@
     <ClInclude Include="MLBasic\lib\image\feature\bow\DenseSIFT.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="MLBasic\lib\image\feature\bow\VocabularyTrainer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="MLBasic\lib\recognition\svm\PredictSVM.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -33,18 +30,36 @@
     <ClInclude Include="MLBasic\util\math\Math.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="MLBasic\util\FileData.h">
+    <ClInclude Include="MLBasic\test\TestImageUtil.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="MLBasic\util\ModelData.h">
+    <ClInclude Include="MLBasic\test\TestDenseSIFT.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="MLBasic\util\ImageUtil.h">
+    <ClInclude Include="MLBasic\util\Util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MLBasic\lib\image\feature\bow\Vocabulary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MLBasic\lib\cluster\kmeans.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MLBasic\test\TestUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MLBasic\test\TestVocabulary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MLBasic\test\TestHist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MLBasic\test\TestUtilWriteMat.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MLBasic\example\TestDenseSIFT.cpp">
+    <ClCompile Include="MLBasic\main\Test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

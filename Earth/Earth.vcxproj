@@ -73,18 +73,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MLBasic\example\TestDenseSIFT.cpp" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="MLBasic\lib\cluster\kmeans.h" />
     <ClInclude Include="MLBasic\lib\image\feature\bow\ConstructHist.h" />
     <ClInclude Include="MLBasic\lib\image\feature\bow\DenseSIFT.h" />
-    <ClInclude Include="MLBasic\lib\image\feature\bow\VocabularyTrainer.h" />
+    <ClInclude Include="MLBasic\lib\image\feature\bow\Vocabulary.h" />
     <ClInclude Include="MLBasic\lib\recognition\svm\PredictSVM.h" />
     <ClInclude Include="MLBasic\lib\recognition\svm\TrainSVM.h" />
-    <ClInclude Include="MLBasic\util\FileData.h" />
-    <ClInclude Include="MLBasic\util\ImageUtil.h" />
+    <ClInclude Include="MLBasic\test\TestDenseSIFT.h" />
+    <ClInclude Include="MLBasic\test\TestHist.h" />
+    <ClInclude Include="MLBasic\test\TestImageUtil.h" />
+    <ClInclude Include="MLBasic\test\TestUtil.h" />
+    <ClInclude Include="MLBasic\test\TestUtilWriteMat.h" />
+    <ClInclude Include="MLBasic\test\TestVocabulary.h" />
     <ClInclude Include="MLBasic\util\math\Math.h" />
-    <ClInclude Include="MLBasic\util\ModelData.h" />
+    <ClInclude Include="MLBasic\util\Util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MLBasic\main\Test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

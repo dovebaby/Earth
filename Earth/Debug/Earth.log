@@ -1,17 +1,26 @@
-﻿Build started 2016/11/9 16:46:11.
+﻿Build started 2016/11/11 15:17:22.
      1>Project "D:\programs\C#\Earth\Earth\Earth.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\Earth.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
-       Link:
-         All outputs are up-to-date.
-         Earth.vcxproj -> D:\programs\C#\Earth\Debug\Earth.exe
-       FinalizeBuildStatus:
-         Deleting file "Debug\Earth.unsuccessfulbuild".
-         Touching "Debug\Earth.lastbuildstate".
-     1>Done Building Project "D:\programs\C#\Earth\Earth\Earth.vcxproj" (build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\MATLABCodes\GlobeRecognition\vlfeat-0.9.20-bin\vlfeat-0.9.20\\" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MLBasic\main\Test.cpp
+         Test.cpp
+     1>d:\programs\c#\earth\earth\mlbasic\util\util.h(54): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\programs\c#\earth\earth\mlbasic\util\util.h(55): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>d:\programs\c#\earth\earth\mlbasic\util\util.h(55): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>d:\programs\c#\earth\earth\mlbasic\util\util.h(76): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\programs\c#\earth\earth\mlbasic\util\util.h(78): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\programs\c#\earth\earth\mlbasic\util\util.h(126): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\programs\c#\earth\earth\mlbasic\util\util.h(146): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getcwd. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\direct.h(117) : 参见“getcwd”的声明
+     1>d:\programs\c#\earth\earth\mlbasic\util\util.h(202): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\programs\c#\earth\earth\mlbasic\util\util.h(251): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>d:\programs\c#\earth\earth\mlbasic\test\testutil.h(14): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\programs\c#\earth\earth\mlbasic\test\testutil.h(15): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\programs\c#\earth\earth\mlbasic\test\testvocabulary.h(17): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\programs\c#\earth\earth\mlbasic\test\testhist.h(20): warning C4018: “<”: 有符号/无符号不匹配
+     1>Done Building Project "D:\programs\C#\Earth\Earth\Earth.vcxproj" (build target(s)) -- FAILED.
 
-生成成功。
+生成失败。
 
-Time Elapsed 00:00:00.24
+Time Elapsed 00:00:06.90

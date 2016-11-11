@@ -216,6 +216,45 @@ public:
 		
 		ExportToCSVFile(path_label_file,pathandLabel);
 	}
+
+	static void writeMat(const Mat &mat, const string &fileName)
+	{
+		int n = mat.rows;
+		int m = mat.cols;
+
+		ofstream fout(fileName);
+		
+
+		Mat_<uchar> mat_ = mat;
+		
+		fout << n  << " " << m << endl;
+		
+		cout << "SB" << endl;
+		cout << mat_.at<uchar>(0, 0) << endl;
+		//getchar();
+		uchar* matData = mat.data;
+
+		int x = matData[0];
+		cout << x << endl;
+		
+		for(int i = 0; i < n; ++ i)
+		{
+			for(int j = 0; j < m; ++ j)
+			{
+				if(j > 0) fout << " ";				
+				fout << fixed << setprecision(5) <<  matData[i * m + j];
+
+				int x = matData[i * m + j];
+				cout << "X" << x << endl;
+				
+m 
+			}
+			fout << endl;
+		}
+		fout.close();
+
+
+	}
 };
 
 #endif

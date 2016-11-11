@@ -9,6 +9,7 @@
 #include "../../MLBasic/test/TestUtil.h"
 #include "../../MLBasic/test/TestVocabulary.h"
 #include "../../MLBasic/test/TestHist.h"
+#include "../../MLBasic/test/TestUtilWriteMat.h"
 
 using namespace std;
 using namespace cv;
@@ -32,7 +33,10 @@ int main() {
 
 	//TestUtil::test();
 
-	TestHist::test();
+	//TestHist::test();
+	TestUtilWriteMat::test();
+
+
 
 	return 0;
 }
