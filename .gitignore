@@ -1,6 +1,4 @@
-Debug/*
+﻿Debug/*
 ipch/*
-*.sdf
-*.sln
-*.suo
-Earth/Debug/*
+.sdf
+.suo
