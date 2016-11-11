@@ -1,4 +1,7 @@
 ﻿Debug/*
+Earth/Debug/*
 ipch/*
-.sdf
-.suo
+*.sdf
+*.suo
+*.vcxproj
+*.vcxproj.user
